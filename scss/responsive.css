@@ -1,0 +1,503 @@
+/* Extra small devices (phones, 600px and down) */
+ /* 481 - 600 */
+ @media screen and (max-width:480px){
+     h1{
+         font-size: 30px !important;
+         width: auto !important;
+     }
+     p{
+         width: auto !important;
+     }
+     ul{
+         width: auto !important;
+     }
+     ul li p{
+         text-align: start;
+     }
+     .service_line::after{
+         display: none;
+     }
+     .service-box{
+         margin:0 auto;
+     }
+     .com-seven{
+         width: 100px;
+         margin-bottom: 1rem;
+     }
+     .down-view{
+         padding-bottom: 1rem;
+     }
+     .owl-slider p{
+         font-size: 14px;
+     }
+     .owl-slider h1{
+         margin-top: 2rem;
+     }
+     .component-3, .side-planet, .com-five, .com-six, .com-six_one, section > .side-planet, .token-side_img{
+        width: 100px;
+    }
+    .front-view{
+        text-align: center;
+    }
+    .artificial-img {
+        padding-bottom: 0;
+    }
+    .bg-img-3 > div, .bg-img-5 > div, .flexer > div, .tech-ul > div, .flex > div,
+     .future-mixer > div, .hardware-mixer > div, .crypto-mixer > div , .metaverse-details{
+        width: 100% !important;
+      } 
+      .bg-img-7 .play-controller, .bg-img-7 .play-button, .bg-img-7 .play-dots {
+        width: 70px;
+      }
+      .bg-img-9{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 60vh;
+      }
+      .ai-bots{
+          position: static;
+          transform: none;
+          width: 100%;
+      }
+ }
+ @media only screen and (min-width: 480px) and (max-width : 600px) {
+    :is(.front-view, .middle-view, .bottom-view, .down-view, .tech-view, .bg-img-6, .bg-img-8, .ai-bots, .brookyl, .brookyl-vendor) h1 {
+        font-size: 30px;
+        width: auto;
+      }
+      :is(.future-mining, .hardware-data, .crypto-details, .metaverse-details) h1 {
+          font-size: 37px;
+          width: auto;
+      }
+      .metaverse-details{
+          width: 100%;
+      }
+      p{
+          width: auto !important;
+      }
+      .component-3, .side-planet, .com-five, .com-six, .com-six_one, section > .side-planet, .token-side_img{
+        width: 130px;
+    }
+    .bg-img-3 > div, .bg-img-5 > div, .flexer > div, .tech-ul > div, .flex > div,
+     .future-mixer > div, .hardware-mixer > div, .crypto-mixer > div {
+        width: 100% !important;
+      }
+      .hard-img_helper{
+          width: 60%;
+          margin: 0 auto 1rem auto;
+      }
+      .owl-slider h1{
+          margin-top: 1rem;
+          text-align: center;
+      }
+      .owl-slider p{
+          font-size: 14px;
+      }
+      .bg-img-7 .play-controller, .bg-img-7 .play-button, .bg-img-7 .play-dots {
+        width: 100px;
+      }
+      .spinner-helper {
+        width: 70%;
+        margin: auto;
+      }
+      .shutter-helper{
+          width: 70%;
+      }
+      .bottom-view{
+          padding: 0;
+      }
+      .down-view{
+          padding-bottom: 1rem;
+      }
+      .com-seven{
+          width: 140px;
+      }
+      .artificial-img{
+          padding-bottom: 0;
+      }
+      .ai-bots{
+          width: 100%;
+          position: absolute;
+          top: 78%;
+          transform: translateY(-50%);
+          height: fit-content;
+      }
+      .service-center {
+        align-items: center;
+      }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) and (max-width : 768px) {
+    p{
+        width: auto !important;
+        font-size: 15px;
+    }
+    .smart-helper {
+        height: 446px;
+        width: 50%;
+        margin: auto;
+    }
+    .spinner-helper{
+        width: 60%;
+        margin: auto;
+    }
+    .front-view{
+        text-align: center;
+        padding: 2rem 0 0 0;
+    }
+    .shutter-helper{
+        width: 60%;
+    }
+    .smart-helper{
+        height: 70%;
+    }
+    .smart-helper > img{
+        height: 100%;
+    }
+    :is(.front-view, .middle-view, .bottom-view, .down-view, .tech-view, .bg-img-6, .bg-img-8, .ai-bots, .brookyl, .brookyl-vendor) h1 {
+        font-size: 37px;
+        width: auto;
+    }
+    .bg-img{
+        height: auto;
+    }
+    .component-3 {
+        width: 100px;
+      }
+      .bg-img-3 > div{
+          width: 100%;
+      }
+      .bottom-view{
+          padding: 0;
+      }
+      .bottom-view > p{
+          width: auto;
+      }
+      .bg-img-3 .side-planet{
+          width: 100px;
+      }
+      .com-five{
+        width: 100px;
+        top: 10%;
+      }
+      .com-six{
+          top: 27%;
+          width: 100px;
+      }
+      .com-seven{
+          width: 143px;
+      }
+      .down-view{
+          padding-bottom: 2rem;
+      }
+      .bg-img-5 > div {
+        width: 100%;
+      }
+      .com-six_one{
+          width: 100px;
+          top: 0;
+      }
+      .tech-view p{
+          margin: 0 0 10px 0;
+      }
+      .watch{
+          width: 100px;
+      }
+      section > .side-planet{
+          width: 100px;
+      }
+      .token-side_img {
+        width: 100px;
+        top: 18%;
+    }
+    .flexer > div{
+        width: 100%;
+    }
+    .bg-img-7 .play-controller, .bg-img-7 .play-button, .bg-img-7 .play-dots {
+        width: 96px;
+      }
+    .play-dots{
+        height: 120px;
+        overflow: hidden;
+    }
+    .tech-ul > div{
+        width: 100% !important;
+    }
+    .tech-ul {
+        margin-bottom: 1rem;
+    }
+    .artificial-img{
+        padding: 3rem 0 0 0;
+    }
+    .ai-bots{
+        position: absolute;
+        width: 100%;
+        top: 63%;
+        transform: translateY(0%);
+    }
+    .brookyl h1, .brookyl h3, .brookyl p .brookyl-vendor h1, .brookyl-vendor h3, .brookyl-vendor p {
+        width: auto;
+    }
+    .future-mixer > div {
+        width: 100%;
+      }
+      :is(.future-mining, .hardware-data, .crypto-details) h1 {
+        font-size: 37px;
+      }
+      .hardware-mixer > div{
+          width: 100%;
+      }
+      .metaverse-details{
+          width: 100%;
+      }
+      .metaverse-details h1{
+          font-size: 28px;
+      }
+      .metaverse-details span{
+          font-size: 16px;
+      }
+      .crypto-mixer > div{
+          width: 100%;
+      }
+      .service_line::after{
+          display: none;
+      }
+      .hard-img_helper{
+          width: 40%;
+          margin: 0 auto 1rem auto;
+      }
+      .artificial-img h2{
+        font-size: 14px;
+        margin-top: 10px;
+      }
+      .bg-img-4{
+        height: 60vh;
+      }
+      .service-box{
+          margin: auto;
+      }
+      .owl-slider p{
+          font-size: 14px;
+      }
+      .flex > div{
+          width: 100%;
+      }
+      .owl-prev{
+        left: -10%;
+      }
+      .owl-next{
+          right: -10%;
+      }
+      .level-details h1{
+          text-align: center;
+          padding-top: 16px;
+      }
+      .service-box .service{
+          width: 80px;
+          height: 80px;
+      }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) and (max-width : 992px) {
+     h1{
+         font-size: 36px !important;
+     }
+     ul{
+         width: auto !important;
+     }
+     .owl-slider p{
+         font-size: 14px;
+     }
+     .tech-view p{
+         width: auto;
+     }
+     .tech-view h1{
+         width: auto;
+     }
+     .spinner{
+         display: none;
+     }
+     .tech-ul > div:last-child{ width: auto;
+     }
+     .services{
+         height: auto;
+     }
+     .service-box .service{
+         width: 110px;
+         height: 110px;
+     }
+    p{
+        font-size: 14px;
+    }
+     .ai-bots{
+       transform: translateY(8%);
+     }
+     .bg-img-7 .play-controller, .bg-img-7 .play-button, .bg-img-7 .play-dots {
+        width: 85px;
+      }
+      .component-3, .side-planet, .com-five, .com-six, .com-six_one, section > .side-planet, .token-side_img{
+          width: 140px;
+      }
+      .down-view{
+          padding-bottom: 1rem;
+      }
+      .com-seven{
+          width: 170px;
+      }
+      .bg-img-9{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up to 1200) */
+ @media only screen and (min-width: 992px) and (max-width : 1200px) {
+    p{
+        font-size: 14px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    .navbar-items ul li{
+        padding: 0 10px;
+    }
+    .owl-slider p{
+        font-size: 14px;
+    }    .front-view{
+       padding: 4rem 0 6rem 0;
+   }
+   .component-3{
+       width: 200px;
+       left: -10%;
+   }
+   .middle-view{
+       padding: 8rem 0;
+   }
+   .down-view{
+       padding-bottom: 1rem;
+   }
+   :is(.front-view, .middle-view, .bottom-view, .down-view, .tech-view, .bg-img-6, .bg-img-8, .ai-bots, .brookyl, .brookyl-vendor) h1 {
+       font-size: 38px;
+   }
+   .bg-img-3 h1, .bg-img-3 p, .tech-view h1, .tech-view p, .ai-bots h1{
+       width: auto;
+   }
+   .bottom-view{
+       padding: 0;
+   }
+   .bottom-view .side-planet{
+       width: 200px;
+       right: -10%;
+   }
+   .bg-img-3 {
+       display: flex;
+       margin-top: 0px;
+       align-items: center;
+     }
+     .com-five{
+         width: 200px;
+         left: -6%;
+     }
+     .com-six{
+         top: 50%;
+         width: 180px;
+     }
+     .down-view{
+         padding-bottom: 2rem;
+     }
+     .com-seven{
+         width: 210px;
+     }
+     .com-six_one {
+       top: -14%;
+       left: -12%;
+       width: 200px;
+   }
+   .com-six_one ~ .side-planet{
+       width: 200px;
+       right: -8%;
+   }
+   .token-side_img{
+       width: 200px;
+       left: -6%;
+   }
+   .smartphone-container{
+       padding: 0;
+   }
+   .bg-img-7 .play-controller, .bg-img-7 .play-button, .bg-img-7 .play-dots {
+       width: 130px;
+     }
+     .spinner{
+         display: none;
+     }
+     .tech-ul > div:last-child{
+         width: 100%;
+     }
+     .tech-view > p:last-child{
+         display: none;
+     }
+     .ai-bots{
+       transform: translateY(58%);
+     }
+     :is(.future-mining, .hardware-data, .crypto-details) h1 {
+       font-size: 38px;
+   }
+   .service-box .service {
+       width: 100px;
+       height: 100px;
+   }
+   .service_line::after{
+       display: none;
+   }
+   .services{
+       height: auto;
+   }
+   .footer-nav li a{
+       font-size: 12px;
+   }
+   .footer-nav li{
+       padding: 0px 10px !important;
+   }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+     .ai-bots{
+        transform: translateY(66%);
+     }
+     
+     .service-box .service{
+         width: 120px;
+         height: 120px;
+     }
+     .down-view{
+         padding-bottom: 2rem;
+     }
+     .com-seven{
+         width: 200px;
+     }
+     .front-view h1, .front-view p{
+        margin: 1rem 0;
+        text-align: start;
+     }
+     .front-view{
+        text-align: start;
+    }
+    .bg-img-7 .play-controller, .bg-img-7 .play-button, .bg-img-7 .play-dots {
+        width: 165px;
+      }
+ } 
+
+ @media only screen and (min-width: 577px) and (max-width : 600px) {
+    .service-box .service{
+        width: 80px;
+        height: 80px;
+    }
+}

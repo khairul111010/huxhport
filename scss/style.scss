@@ -1,0 +1,210 @@
+/*
+[Master Stylesheet]
+Project Name: XBlockchain Ecosystem
+Version:    1.1
+
+====INDEX=====
+01- Google Fonts Import
+02- SCSS File Import 
+03- Loader
+04- Featured-area
+*/
+/*=============== SCSS sub file import ===================*/
+@import "mixin";
+@import "variable";
+/*=============== Fonts source Google Alegreya Sans ===================*/
+// @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+// @import url(“https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css”);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*=============== Web Styling in SCSS ===================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: "Rubik";
+}
+
+body {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    color: #fff;
+    background-color: $bg-clr;
+    scroll-behavior: smooth;
+}
+p {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 26px;
+    color: inherit;
+}
+
+ol li,
+p,
+ul li {
+    font-size: 16px;
+    color: inherit;
+    margin-bottom: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+    background: inherit;
+    box-shadow: none;
+    border: none;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    margin-bottom: 0;
+}
+
+.site-layout {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.col-1-5 {
+    width: 20%;
+    max-width: 20%;
+    flex: 0 0 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+section {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.gap {
+    float: left;
+    padding: 40px 0 40px 0;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.gap.no-gap {
+    padding: 0;
+}
+
+.gap.no-top {
+    padding-top: 0px;
+}
+
+.gap.no-bottom {
+    padding-bottom: 0px;
+}
+
+.remove-ext {
+    margin-bottom: -30px;
+}
+
+.remove-ext-40 {
+    margin-bottom: -40px;
+}
+
+.remove-ext-50 {
+    margin-bottom: -50px;
+}
+
+.merged {
+    margin: 0px;
+    padding: 0;
+}
+
+.merged > div {
+    padding: 0;
+}
+
+.row.merged > div {
+    padding: 0;
+}
+
+.merged.row {
+    margin: 0;
+}
+
+.merged.row > div {
+    padding: 0;
+}
+[type="submit"],
+button,
+html [type="button"] {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+.lr-gap {
+    padding: 30px 70px;
+}
+/*==========
+    Loader
+  ========= */
+
+/* =============
+   Featured-area 
+   ============*/
+//    .bg-img{
+//        position: relative;
+//        top: 0;
+//        left: 0;
+
+//    }
+//    .navbar{
+//        position: absolute;
+//        top: 20px;
+//        left: 10px;
+//    }
+

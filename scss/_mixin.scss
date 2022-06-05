@@ -1,0 +1,17 @@
+ /* Remove gery border */
+@mixin rmv-border {
+    border: none;
+}    
+
+/* Card Border Radius */
+@mixin add-radius {
+    border-radius: 15px;
+}
+/* Transition-ease-in-out */
+@mixin f-trans {
+    transition: all 0.1s ease-in-out;
+}
+    
+@mixin sl-trans {
+    transition: all .3s ease-in-out;
+} 
