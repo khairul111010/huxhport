@@ -956,12 +956,12 @@ hr {
 
 .box_text_1 {
   position: absolute;
-  left: 0;
+  left: 10%;
   top: 0;
 }
 .box_text_2 {
   position: absolute;
-  left: 0;
+  left: 10%;
   bottom: 0;
 }
 .bidet {
@@ -970,7 +970,7 @@ hr {
 
 .bidet_text_1 {
   position: absolute;
-  left: 0;
+  left: 10%;
   top: 10%;
 }
 .hydro {
@@ -978,4 +978,5 @@ hr {
 }
 
 .hydro_text_1 {
+  /*  */
 }
