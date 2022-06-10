@@ -980,3 +980,30 @@ hr {
 .hydro_text_1 {
   /*  */
 }
+
+.stardiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.spaceimg {
+  position: relative;
+}
+.spacetxt {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  z-index: 1;
+}
+
+.sateliteimg1 {
+  position: relative;
+}
+.sateliteimg2 {
+  position: relative;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  z-index: 1;
+  width: 500px;
+}
