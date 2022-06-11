@@ -122,6 +122,9 @@
   .hydro_text_1 h4 {
     font-size: 0.5rem;
   }
+  .stardiv {
+    display: block;
+  }
 }
 @media only screen and (min-width: 480px) and (max-width: 600px) {
   :is(.front-view, .middle-view, .bottom-view, .down-view, .tech-view, .bg-img-6, .bg-img-8, .ai-bots, .brookyl, .brookyl-vendor)
@@ -248,6 +251,9 @@
   }
   .hydro_text_1 h4 {
     font-size: 0.5rem;
+  }
+  .stardiv {
+    display: block;
   }
 }
 
@@ -474,6 +480,9 @@
   .hydro_text_1 h4 {
     font-size: 0.7rem;
   }
+  .stardiv {
+    display: block;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -694,5 +703,8 @@
   .service-box .service {
     width: 80px;
     height: 80px;
+  }
+  .stardiv {
+    display: block;
   }
 }
