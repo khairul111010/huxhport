@@ -23,6 +23,19 @@ Version:    1.1
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+*::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(18, 9, 51); /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(187, 0, 156); /* color of the scroll thumb */
+  border-radius: 15px; /* roundness of the scroll thumb */
+  /* border: 3px solid orange; creates padding around scroll thumb */
+}
 :root {
   --purple-color: #a12ca9;
   --blue-color: #8e44d7;
@@ -1006,4 +1019,107 @@ hr {
   right: 5%;
   z-index: 1;
   width: 500px;
+}
+
+.docsnavbar {
+  height: 15vh;
+  box-shadow: 0px 4px 10px -3px rgba(161, 53, 161, 1);
+}
+.docsnavbaritems {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0;
+}
+.docsnavbtn {
+  padding: 0.5em 1em;
+  background-color: #8e44d7;
+  border-radius: 10px;
+}
+
+.docsflex {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 60px 0 0;
+}
+
+.docs-sidebar {
+  height: 85vh;
+  width: 20vw;
+  background: #411044;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 40px rgb(65, 16, 68);
+  overflow-y: scroll;
+  transition: all 0.5s ease;
+}
+.togglesidebar {
+  transform: translateX(-100%);
+  opacity: 0;
+  /* display: none; */
+}
+.docsidebarList {
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.docsidebarList:hover {
+  background: #06052a;
+  cursor: pointer;
+}
+
+.docsnav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid_docs_link {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  transition: all 0.3 ease;
+}
+
+.docscard {
+  background: #fff;
+  border-radius: 5px;
+  width: 30vw;
+  color: #06052a;
+  padding: 20px;
+  position: relative;
+}
+.doclink {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+.docslibrary {
+  position: fixed;
+  top: 120px;
+  right: 60px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  transition: all 0.2s ease;
+}
+.docslibrary:hover {
+  border: 2px solid white;
+  background: white;
+  color: #06052a;
+  cursor: pointer;
+}
+.docs-details {
+  width: 80rem;
+}
+
+.grid_docs_link_page {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 70vw;
+  padding: 50px;
+  background: #fff;
+  color: #06052a;
+  border-radius: 30px;
 }
