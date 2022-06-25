@@ -1136,7 +1136,7 @@ hr {
   margin-top: 50px;
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 30px;
+  gap: 20px;
 }
 .countdown {
   padding: 10px;
@@ -1145,7 +1145,7 @@ hr {
 }
 
 h1 {
-  font-size: small;
+  font-size: 0.8rem;
   font-weight: normal;
   /* letter-spacing: 0.125rem; */
   text-transform: uppercase;
