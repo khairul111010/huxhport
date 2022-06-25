@@ -49,7 +49,7 @@
         <!-- <div class="docsidebarList">11. Lorem</div> -->
       </div>
       <div class="docs-details">
-        <div class="docsnav">
+        <div class="docsnav" id="docsnav">
           <div class="grid_docs_link_page">
             <div class="docscard_page">
               <h2>1. Lorem</h2>
@@ -71,7 +71,9 @@
     <script>
       function myFunction() {
         var Library = document.getElementById("docslibrary");
+        var docsnav = document.getElementById("docsnav");
         Library.classList.toggle("togglesidebar");
+        docsnav.classList.toggle("docsnav___active");
       }
     </script>
   </body>
