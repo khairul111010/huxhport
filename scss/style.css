@@ -1132,21 +1132,28 @@ hr {
   border-radius: 30px;
 }
 
+.business_craft_div {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
 .countdown {
+  padding: 10px;
   color: #fff;
-  margin: 100px auto;
   text-align: center;
 }
 
 h1 {
+  font-size: small;
   font-weight: normal;
-  letter-spacing: 0.125rem;
+  /* letter-spacing: 0.125rem; */
   text-transform: uppercase;
 }
 
 li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 0.3em;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
@@ -1155,19 +1162,9 @@ li {
 li span {
   display: block;
   padding: 10px;
-  font-size: 4.5rem;
+  font-size: 0.8rem;
   background-color: rgba(161, 53, 161, 0.1);
   border-radius: 10px;
-}
-
-.emoji {
-  display: none;
-  padding: 1rem;
-}
-
-.emoji span {
-  font-size: 4rem;
-  padding: 0 0.5rem;
 }
 
 .doclink_page {
