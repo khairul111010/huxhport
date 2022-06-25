@@ -1072,6 +1072,13 @@ hr {
 .docsnav {
   display: flex;
   justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+.docsnav___active {
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(-10%);
 }
 
 .grid_docs_link {
