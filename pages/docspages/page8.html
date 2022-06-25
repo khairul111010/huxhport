@@ -78,23 +78,23 @@
         <div class="docsnav" id="docsnav">
           <div class="grid_docs_link_page">
             <div class="docscard_page">
-              <h2>2. Challenge</h2>
+              <h2>8. Signing</h2>
               <br />
-              <h4>No metaverse native network High network fees</h4>
               <p>
-                Many protocols for the metaverse exists, but there’s no network
-                that’s built specified for the metaverse and for other Dapps and
-                protocols to be built on top of it and none that connects such
-                protocols and Dapps where transactions are carried out and
-                stored on the blockchain.
+                Xblockchain's transaction signing process follows a standard
+                ECDSA cryptographic algorithm, with a SECP256K1 selection curve.
+                a private key is a random number, and the public key is a point
+                on the elliptic curve. The public key generation process
+                consists of first generating a random number as a private key,
+                and then multiplying the best point of the elliptic curve by the
+                private key obtain to the public key. When a transaction occurs,
+                the transaction raw data is first converted into byte format.
+                The raw data then undergoes SIN-256 hashing. The private key
+                corresponding to the contract address then signs the result of
+                the SIN256 hash. The signature result is then added to the
+                transaction.
               </p>
-              <img
-                src="../../images/challange.png"
-                alt=""
-                srcset=""
-                width="300"
-              />
-              <a class="doclink_page" href="./page3.html">Next</a>
+              <a class="doclink_page" href="./page9.html">Next</a>
             </div>
           </div>
         </div>

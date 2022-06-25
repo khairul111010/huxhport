@@ -1045,15 +1045,16 @@ hr {
 
 .docs-sidebar {
   height: 85vh;
-  width: 20vw;
+  width: 25vw;
   background: #411044;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   box-shadow: 2px 2px 40px rgb(65, 16, 68);
   overflow-y: scroll;
   transition: all 0.5s ease;
+  text-align: left;
 }
 .togglesidebar {
   transform: translateX(-100%);
@@ -1167,4 +1168,11 @@ li span {
 .emoji span {
   font-size: 4rem;
   padding: 0 0.5rem;
+}
+
+.doclink_page {
+  background-color: #06052a;
+  color: #fff;
+  padding: 0 10px;
+  border-radius: 10px;
 }
