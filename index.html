@@ -48,6 +48,23 @@
               <button class="nav-btn">Join Us</button>
               <button class="nav-btn"></button>
             </div>
+            <div class="nav-burger">
+              <div onclick="burgerToggle()" id="burger-img" class="burger-icon"><img src="./images/burger.png" alt="" srcset="" width="80"></div>
+              <div id="burger-icon-list" class="">
+                <div>
+                  <div><a href="#">HOME</a></div>
+                  <div><a href="./pages/docs.html">DOCS</a></div>
+                  <div><a href="#">BUSINESS MODEL</a></div>
+                  <div><a href="./pages/businesscraft.html">BUSINESS CRAFT</a></div>
+                  <div><a href="#">ROADMAP</a></div>
+                  <div><a href="#">PORTFOLIO</a></div>
+                  <div><a href="#">CONTACT</a></div>
+                </div>
+                <button class="nav-burger-btn">Join Us</button>
+                <!-- <button class="nav-btn"></button> -->
+              </div>
+
+            </div>
           </nav>
           <div class="front-view" data-aos="fade-right">
             <h1>Decentralized Hybrid xBlockchain Ecosystem</h1>
@@ -168,10 +185,10 @@
             </div>
             <div class="tech-images" data-aos="fade-right">
               <div class="iphone-img">
-                <img src="./images/ip1.png" alt="">
+                <img src="./images/ip1.png" alt="" width="500">
               </div>
               <div class="watch">
-                <img src="./images/watch.png" alt="">
+                <!-- <img src="./images/watch.png" alt=""> -->
               </div>
             </div>
           </div>
@@ -663,6 +680,13 @@
         setTimeout(() => {
           preloader.classList.add('no-preloader')
         }, 3000);
+  
+  
+  // console.log(burgerImg);
+  function burgerToggle() {
+    let burgerImg = document.getElementById("burger-icon-list");
+    burgerImg.classList.toggle("show");
+}
   </script>
 </body>
 

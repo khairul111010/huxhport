@@ -33,6 +33,30 @@
         <div><a href="#">CONTACT</a></div>
         <div class="docsnavbtn">Join Us</div>
       </div>
+      <div class="docs-nav-burger">
+        <div class="docsnavbrandlogo">
+          <img src="../images/logo.png" alt="X-Logo" />
+        </div>
+        <div
+          onclick="docsburgerToggle()"
+          id="docs-burger-img"
+          class="docs-burger-icon"
+        >
+          <img src="../images/burger.png" alt="" srcset="" width="80" />
+        </div>
+        <div id="docs-burger-icon-list" class="">
+          <div>
+            <div><a href="../index.html">HOME</a></div>
+            <div><a href="../pages/docs.html">DOCS</a></div>
+            <div><a href="#">BUSINESS MODEL</a></div>
+            <div><a href="../pages/businesscraft.html">BUSINESS CRAFT</a></div>
+            <div><a href="#">ROADMAP</a></div>
+            <div><a href="#">PORTFOLIO</a></div>
+            <div><a href="#">CONTACT</a></div>
+          </div>
+          <button class="docs-nav-burger-btn">Join Us</button>
+        </div>
+      </div>
     </div>
     <div class="business_craft_div">
       <div class="countdown">
@@ -379,6 +403,11 @@
       </div>
     </div>
     <script>
+      function docsburgerToggle() {
+        let docsburgerimg = document.getElementById("docs-burger-icon-list");
+        // console.log(docsburgerimg);
+        docsburgerimg.classList.toggle("docsnavshow");
+      }
       (function () {
         const second = 1000,
           minute = second * 60,

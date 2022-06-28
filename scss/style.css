@@ -536,7 +536,7 @@ nav {
   position: relative;
 }
 .iphone-img {
-  transform: scale(1.4);
+  transform: scale(1.4) translateX(10%);
 }
 .watch {
   width: 200px;
@@ -1172,4 +1172,114 @@ li span {
   color: #fff;
   padding: 0 10px;
   border-radius: 10px;
+}
+.nav-burger {
+  display: none;
+}
+.docs-nav-burger {
+  display: none;
+}
+
+@media all and (max-width: 1016px) {
+  .docsnavbaritems {
+    display: none;
+  }
+  .docs-nav-burger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .docsnavbrandlogo {
+    padding: 20px;
+  }
+  #docs-burger-icon-list {
+    display: none;
+    opacity: 0;
+  }
+  .docsnavshow {
+    width: 80vw;
+    /* margin: 0 auto; */
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 1 !important;
+    transition: all 1000 ease-in;
+    background: #8e44d7;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 3;
+  }
+  .docs-nav-burger-btn {
+    padding: 0.5em 1em;
+    background-color: #06052a;
+    border-radius: 10px;
+    color: #fff;
+  }
+}
+@media all and (max-width: 990px) {
+  .business_craft_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* .docsflex {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  } */
+  .docs-sidebar {
+    width: 50vw;
+  }
+  .docs-details {
+    /* width: 50vw; */
+  }
+  .grid_docs_link {
+    /* display: block; */
+  }
+  .nav-burger {
+    display: block;
+    position: relative;
+  }
+  .navbar-items {
+    display: none;
+  }
+  button {
+    padding: 0.5em 1em;
+    background-color: #8e44d7;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .burger-icon-list {
+    display: none;
+  }
+  #burger-icon-list {
+    display: none;
+    opacity: 0;
+  }
+
+  .show {
+    width: 80vw;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 1 !important;
+    transition: all 1000 ease-in;
+    background: #06052a;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    z-index: 3;
+  }
+  @media all and (max-width: 700px) {
+    .docs-sidebar {
+      width: 60vw;
+    }
+  }
 }
